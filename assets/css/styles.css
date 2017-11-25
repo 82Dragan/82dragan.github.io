@@ -1,0 +1,408 @@
+a.btn.btn-link.btn-lg.hero-button:hover{
+  background:rgba(26,26,26,.3);
+  transition:.5s;
+}
+
+a.btn.btn-link.btn-lg.hero-button{
+  text-decoration:none;
+  border:4px solid gold;
+  color:gold;
+  font-weight:bold;
+  text-transform:uppercase;
+  margin-left:25px;
+  text-shadow:0 5px 10px #000;
+}
+
+nav.navbar.navbar-default.custom-header{
+  margin-bottom:0;
+}
+
+div.box{
+  position:relative;
+  width:100%;
+  height:60vh;
+  background:transparent;
+  padding:20px;
+  border:1px solid #000;
+}
+
+div.image{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:#262626;
+  z-index:2;
+  transform-origin:left;
+  transition:1s;
+  transform:perspective(2000px) rotateY(0deg);
+  overflow:hidden;
+}
+
+.image img{
+  width:100%;
+}
+
+box:hover .image{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:#fff;
+  z-index:1;
+  transform-origin:left;
+  transition:1s;
+  transform:perspective(2000px) rotateY(90deg);
+  padding:25px;
+  box-sizing:border-box;
+  text-align:justify;
+}
+
+div.content{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:url(../../assets/img/White-Paper-Texture.jpg);
+  z-index:1;
+  transform-origin:left;
+  transition:1s;
+  transform:perspective(2000px) rotateY(90deg);
+  padding:25px;
+  box-sizing:border-box;
+  text-align:justify;
+  border:1px solid #000;
+  overflow:hidden;
+}
+
+box:hover .image{
+  transform:perspective(2000px) rotateY(-90deg);
+}
+
+box:hover .content{
+  transform:perspective(2000px) rotateY(0deg);
+}
+
+.image img{
+}
+
+div.box:hover .image{
+  transform:perspective(2000px) rotateY(-90deg);
+}
+
+div.box:hover .image{
+  transform:perspective(2000px) rotateY(-90deg);
+}
+
+div.box:hover .content{
+  transform:perspective(2000px) rotateY(0deg);
+}
+
+h2.text-center{
+  color:gold;
+  background:rgba(0,0,0,.3);
+  padding:10px;
+  width:70%;
+  margin:0 auto;
+  text-shadow:0 5px 5px #262626;
+  box-shadow:0px 10px 15px rgba(26,26,26,.5);
+  margin-bottom:10px;
+  font-family:'Cookie', sans-serif;
+  font-size:54px;
+}
+
+h2.text-center #gallery{
+  margin-top:20px;
+}
+
+div.row{
+  margin:100px auto 30px;
+}
+
+img.img-gallery{
+  width:100%;
+}
+
+div.col-md-6{
+  margin:0;
+}
+
+body{
+  background:url(../../assets/img/wedding-dress-background.jpg);
+}
+
+@media (min-width: 992px) col-md-4{
+}
+
+@media (min-width: 992px) div.col-md-4{
+  margin:0 auto;
+}
+
+form.bootstrap-form-with-validation{
+  margin:100px auto;
+  width:60vw;
+  background:rgba(0,0,0,.3);
+  padding:10vh 5vw;
+}
+
+@media (max-width:768px) {
+  .col-md-4{
+    width:50%;
+    height:100%;
+    margin:10px auto;
+    display:block;
+  }
+}
+
+@media (max-width:480px) {
+  .col-md-4{
+    width:100%;
+    margin:0 auto;
+    display:block;
+    height:auto;
+  }
+}
+
+@media (max-width:480px) {
+  div .row{
+    width:80%;
+    margin:0 auto;
+  }
+}
+
+@media (max-width:480px) {
+  div.box{
+    width:80%;
+    margin:0 auto;
+    display:block;
+  }
+}
+
+@media (max-width:480px) {
+  div.box{
+    width:50%;
+    margin:0 auto;
+  }
+}
+
+@media (min-width:1024px) {
+  .image img{
+    height:100%;
+  }
+}
+
+@media (max-width:480px) {
+  .image img{
+    height:100%;
+  }
+}
+
+@media (max-width:480px) {
+  h1{
+    font-size:1.5em;
+  }
+}
+
+i.fa.fa-facebook{
+  color:#3b5999;
+}
+
+i.fa.fa-twitter{
+  color:#55acee;
+}
+
+i.fa.fa-linkedin{
+  color:#0077B5;
+}
+
+i.fa.fa-github{
+  color:#000;
+}
+
+.blog-hero{
+  width:100%;
+  height:60vh;
+}
+
+div#blog-hero{
+  width:100%;
+  height:90vh;
+  overflow:hidden;
+  margin:0;
+}
+
+div.col-md-12{
+  margin:10px;
+}
+
+h1{
+  font-family:'Cookie', sans-serif;
+  font-size:50px;
+}
+
+h1#blog-heading{
+  width:60%;
+  margin:0 auto;
+  transform:translate(0, 35vh);
+  background:rgba(0,0,0,.3);
+  color:gold;
+  padding:20px;
+  text-shadow:0 5px 10px black;
+  font-family:'Cookie', sans-serif;
+  font-size:56px;
+}
+
+body#contact{
+  background:url(../../assets/img/sunset-wedding.jpeg);
+  background-size:cover;
+}
+
+label.control-label{
+  color:#fff;
+}
+
+h2#contact-us.text-center{
+  box-shadow:0 0px 25px gold;
+}
+
+p.blog-text{
+  font-size:18px;
+  margin-top:15px;
+}
+
+div.col-md-8.post{
+  margin:10px 0;
+}
+
+div.col-md-12.blog-post{
+  margin:20px;
+}
+
+img.img-responsive.blog-page-image{
+  margin:0;
+}
+
+div.row.blog-row{
+  margin:10px;
+  width:65%;
+}
+
+img.post-image-thumbnail{
+  width:50%;
+  border-top-right-radius:40px;
+  border-bottom-left-radius:40px;
+  border:8px solid #fff;
+  box-shadow:0 10px 5px #000;
+}
+
+h1.blog-title{
+  background:rgba(26,26,26,.3);
+  padding:10px;
+  color:gold;
+  text-shadow:0 10px 10px #000;
+}
+
+div.col-md-12.blog-post{
+  background:url(../../assets/img/White-Paper-Texture.jpg);
+  box-shadow:0 10px 10px #262626;
+  margin-top:0;
+}
+
+a.btn.btn-warning:hover{
+  background:rgba(10,10,10,.6);
+  color:gold;
+  transition:.5s;
+}
+
+a.btn.btn-warning{
+  background:rgba(26,26,26,.3);
+  color:gold;
+  text-shadow:0 0px 5px #000;
+}
+
+h3.text-center{
+  background:rgba(26,26,26,.3);
+  color:gold;
+  text-shadow:0 5px 5px #000;
+  padding:5px;
+}
+
+li{
+  font-size:20px;
+  color:gold;
+  text-shadow:0 5px 11px #000;
+}
+
+div.col-md-4.sidebar-widget{
+  background:url(../../assets/img/White-Paper-Texture.jpg);
+  box-shadow:0 5px 10px #000;
+  right:1%;
+  margin:20px 0;
+}
+
+img#about-header{
+  background-size:cover;
+  width:100%;
+}
+
+div#about-title.col-md-12{
+  margin:25px 0;
+}
+
+p#about-para{
+  font-size:38px;
+  padding:20px;
+  text-justify:justify;
+  font-family:'Cookie', sans-serif;
+  text-shadow:0 5px 5px gold;
+}
+
+div.team.col-md-6{
+  margin:0 auto;
+  border:15px double gold;
+  background:url(../../assets/img/White-Paper-Texture.jpg);
+  border-top-right-radius:70px;
+}
+
+div.row.our-team{
+}
+
+img.team-photo{
+  width:70%;
+  border-radius:50%;
+  margin:10px auto;
+  box-shadow:0 10px 15px #000;
+}
+
+p.team-description{
+  font-size:18px;
+  text-justify:justified;
+}
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img{
+  display:block;
+  max-width:100%;
+  height:auto;
+}
+
+.carousel{
+  position:relative;
+  width:100%;
+  height:80vh;
+  overflow:hidden;
+}
+
+.carousel-inner{
+  position:relative;
+  width:100%;
+  overflow:hidden;
+}
+
+div.row.widget-row{
+  width:30%;
+  float:right;
+  margin-top:0;
+}
+
+div.widget{
+  background:url(../../assets/img/White-Paper-Texture.jpg);
+  box-shadow:0 10px 10px #000;
+}
+
