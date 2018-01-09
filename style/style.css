@@ -402,7 +402,6 @@ input[type=submit]:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background: rgba(173,70,150,.3);
 }
 .item {
   flex: 1;
