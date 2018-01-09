@@ -1,92 +1,96 @@
 <!DOCTYPE html>
-<html>
-
-<head>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
+    <title>Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wedding photographer</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/Hero-Technology.css">
-    <link rel="stylesheet" href="assets/css/Pretty-Header.css">
-    <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
-    <link rel="stylesheet" href="assets/css/lightbox.min.css">
-</head>
+  	<link rel='stylesheet' href='style/style.css'>
+    <link rel="stylesheet" href="style/lightbox.min.css">
+    <link rel="stylesheet" href="style/aos.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js">
+	  <script rel='text/javascript' src='js/jquery-3.2.1.js'></script>
+    <script>
+      $(document).ready(function(){
+        $('.menu').click(function(){
+          $('ul').toggleClass('active');
+        })
+      });
+    </script>
 
-<body id="contact">
-    <nav class="navbar navbar-default navbar-fixed-top custom-header">
-        <div class="container-fluid">
-            <div class="navbar-header"><a class="navbar-brand navbar-link" href="#">Company<span>logo </span> </a>
-                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar-collapse">
-                <ul class="nav navbar-nav navbar-right links">
-                    <li role="presentation"><a href="index.html">Home </a></li>
-                    <li role="presentation"><a href="gallery.html">Gallery </a></li>
-                    <li role="presentation"><a href="blog.html">Blog </a></li>
-                    <li role="presentation"><a href="about.html">About us</a></li>
-                    <li role="presentation"><a href="#" class="custom-navbar"> Contact</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right"></ul>
-            </div>
-        </div>
-    </nav>
-    <form method="post" class="bootstrap-form-with-validation">
-        <h2 class="text-center" id="contact-us">Contact us</h2>
-        <div class="form-group">
-            <label class="control-label" for="text-input">Name </label>
-            <input class="form-control" type="text" name="text-input" id="text-input">
-        </div>
-        <div class="form-group">
-            <label class="control-label" for="password-input">Surname </label>
-            <input type="text" name="text-input" class="form-control" id="text-input" />
-        </div>
-        <div class="form-group">
-            <label class="control-label" for="email-input">Email Input</label>
-            <input class="form-control" type="email" name="email-input" id="email-input">
-        </div>
-        <div class="form-group">
-            <label class="control-label" for="textarea-input">Textarea </label>
-            <textarea class="form-control" name="textarea-input" id="textarea-input"></textarea>
-        </div>
-        <div class="form-group"></div>
-        <div class="form-group"></div>
-        <div class="form-group">
-            <button class="btn btn-primary btn-block" type="submit">Button</button>
-        </div>
-    </form>
-    <footer>
-        <div class="row">
-            <div class="col-md-4 col-sm-6 footer-navigation">
-                <h3><a href="#">Company<span>logo </span></a></h3>
-                <p class="links"><a href="#">Home</a><strong> · </strong><a href="#">Blog</a><strong> · </strong><a href="#">Pricing</a><strong> · </strong><a href="#">About</a><strong> · </strong><a href="#">Faq</a><strong> · </strong><a href="#">Contact</a></p>
-                <p class="company-name">Company Name © 2015 </p>
-            </div>
-            <div class="col-md-4 col-sm-6 footer-contacts">
-                <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
-                    <p><span class="new-line-span">21 Revolution Street</span> Paris, France</p>
-                </div>
-                <div><i class="fa fa-phone footer-contacts-icon"></i>
-                    <p class="footer-center-info email text-left"> +1 555 123456</p>
-                </div>
-                <div><i class="fa fa-envelope footer-contacts-icon"></i>
-                    <p> <a href="#" target="_blank">support@company.com</a></p>
-                </div>
-            </div>
-            <div class="clearfix visible-sm-block"></div>
-            <div class="col-md-4 footer-about">
-                <h4>About the company</h4>
-                <p> Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
-                </p>
-                <div class="social-links social-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-github"></i></a></div>
-            </div>
-        </div>
-    </footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/lightbox-plus-jquery.min.js"></script>
-</body>
+    <script src="js/jquery.stickit.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  </head>
+  <body>
 
+    <div class="wrapper">
+    <!--HEADER-->
+    	<div class="header">
+        		<img class='fadeInDown animated' src="images/hairstyle_logo.png" alt="">
+    	</div>
+    	<div id="header">
+        		<h1>Hairstyle Studio</h1>
+      	</div>
+
+    <!--NAVIGATION BAR-->
+    	<div id="navbar">
+              <div class='toggle'>
+                <i class="fas fa-bars menu"></i>
+              </div>
+              <ul class="nav">
+            		<li><a href="index.html">Home</a></li>
+           			<li><a href="#content-1">Sercives</a></li>
+    		        <li><a href="#story-1">About us</a></li>
+    		        <li><a href="#gallery">Gallery</a></li>
+    		        <li><a href="blog-page.html">Blog</a></li>
+    		        <li><a href="#">Contact</a></li>
+              </ul>
+    	</div>
+
+ <!--CONTACT FORM-->
+      <div class='contact'>
+
+          <form>
+              <h1>Contact</h1>
+              <label for="name">Name</label>
+              <input type="text" id="name" data-aos="fade-down" data-aos-duration="1000" name="firstname" placeholder="Your name..">
+
+              <label for="e-mail">e-mail</label>
+              <input type="text" id="e-mail" data-aos="fade-left" data-aos-duration="1000" name="e-mail" placeholder="Your e-mail..">
+
+              <label for="subject">Subject</label>
+              <textarea id="subject" data-aos="fade-right" data-aos-duration="1000" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+              <input type="submit" value="Submit">
+
+            </form>
+      </div>
+
+    <!--FOOTER-->
+      <div id="footer">
+        <a href='#'><p>&copy;2017 Dragan</p></a>
+        <div class="social">
+          <a href="https://www.facebook.com/" target='blank'><i class="fab fa-facebook-square"></i></a>
+          <a href="https://twitter.com/" target='blank'><i class="fab fa-twitter-square"></i></a>
+          <a href="https://www.pinterest.com/" target='blank'><i class="fab fa-pinterest-square"></i></a>
+          <a href="https://www.instagram.com/" target='blank'><i class="fab fa-instagram"></i></a>
+          <a href="https://plus.google.com" target='blank'><i class="fab fa-google-plus-square"></i></a>
+        </div>
+
+      </div>
+    </div>
+
+    <!--SCRIPTS-->
+      <script>
+        $('#header').stickit({scope: StickScope.Document, zIndex: 101});
+        $('#navbar').stickit({scope: StickScope.Document, top: 38});
+        $('#menu-phone').stickit({scope: StickScope.Document, top: 38});
+      </script>
+      <script src="js/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+
+
+  </body>
 </html>

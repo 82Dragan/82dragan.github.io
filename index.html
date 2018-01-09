@@ -1,143 +1,243 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	  <title>Hair Style Studio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wedding photographer</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/Hero-Technology.css">
-    <link rel="stylesheet" href="assets/css/Pretty-Header.css">
-    <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
-    <link rel="stylesheet" href="assets/css/lightbox.min.css">
-</head>
+  	<link rel='stylesheet' href='style/style.css'>
+    <link rel="stylesheet" href="style/lightbox.min.css">
+    <link rel="stylesheet" href="style/aos.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js">
+	  <script rel='text/javascript' src='js/jquery-3.2.1.js'></script>
+    <script>
+      $(document).ready(function(){
+        $('.menu').click(function(){
+          $('ul').toggleClass('active');
+        })
+      });
+    </script>
 
-<body>
-    <nav class="navbar navbar-default navbar-fixed-top custom-header">
-        <div class="container-fluid">
-            <div class="navbar-header"><a class="navbar-brand navbar-link" href="#">Company<span>logo </span> </a>
-                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar-collapse">
-                <ul class="nav navbar-nav navbar-right links">
-                    <li role="presentation"><a href="index.html">Home </a></li>
-                    <li role="presentation"><a href="gallery.html">Gallery </a></li>
-                    <li role="presentation"><a href="blog.html">Blog </a></li>
-                    <li role="presentation"><a href="about.html">About us</a></li>
-                    <li role="presentation"><a href="contact.html" class="custom-navbar"> Contact</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right"></ul>
-            </div>
-        </div>
-    </nav>
-    <div class="jumbotron hero-technology">
-        <h1 class="text-left hero-title">Wedding Photographer</h1>
-        <p class="text-center hero-subtitle">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-        <p class="text-left"><a class="btn btn-link btn-lg hero-button" role="button" href="#">Learn more</a></p>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <h2 class="text-center">What we offer?</h2></div>
-    </div>
-    <div class="row">
-        <div class="col-md-4">
-    <div class='center'>
-	   <div class='box'>
-		<div class='image'>
-		    <img src='assets/img/grooms.jpeg'>
-		</div>
-		<div class='content'>
-			<h1>Flip image on hover</h1>
-			<p>Lorem ipsum dolor sit amet, consectetuer 					adipiscing elit. Aenean commodo ligula eget 			dolor. Aenean massa. Cum sociis					natoque penatibus et magnis dis parturient montes, 			nascetur ridiculus mus.</p>
-		</div>
-	   </div>
-	</div>
-</div>
-        <div class="col-md-4">
-    <div class='center'>
-	   <div class='box'>
-		<div class='image'>
-		    <img src='assets/img/bride.jpg'>
-		</div>
-		<div class='content'>
-			<h1>Flip image on hover</h1>
-			<p>Lorem ipsum dolor sit amet, consectetuer 					adipiscing elit. Aenean commodo ligula eget 			dolor. Aenean massa. Cum sociis					natoque penatibus et magnis dis parturient montes, 			nascetur ridiculus mus.</p>
-		</div>
-	   </div>
-	</div>
-</div>
-        <div class="col-md-4">
-    <div class='center'>
-	   <div class='box'>
-		<div class='image'>
-		    <img src='assets/img/lovestory.jpeg'>
-		</div>
-		<div class='content'>
-			<h1>Flip image on hover</h1>
-			<p>Lorem ipsum dolor sit amet, consectetuer 					adipiscing elit. Aenean commodo ligula eget 			dolor. Aenean massa. Cum sociis					natoque penatibus et magnis dis parturient montes, 			nascetur ridiculus mus.</p>
-		</div>
-	   </div>
-	</div>
-</div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <h2 class="text-center" id="gallery">Gallery </h2></div>
-    </div>
-    <div class="row">
-        <div class="col-md-6">
-            <a href="assets/img/brideshoes.jpeg" data-lightbox="image-1" data-title="Bride shoes"><img src="assets/img/brideshoes.jpeg" class="img-gallery" /></a>
-        </div>
-        <div class="col-md-6">
-            <a href="assets/img/justmarried.jpeg" data-lightbox="image-1" data-title="Just married"><img src="assets/img/justmarried.jpeg" class="img-gallery" /></a>
-        </div>
-        <div class="col-md-6">
-            <a href="assets/img/weddingrings.jpeg" data-lightbox="image-1" data-title="Wedding rings"><img src="assets/img/weddingrings.jpeg" class="img-gallery" /></a>
-        </div>
-        <div class="col-md-6">
-            <a href="assets/img/weddingstory.jpeg" data-lightbox="image-1" data-title="Wedding story"><img src="assets/img/weddingstory.jpeg" class="img-gallery" /></a>
-        </div>
-        <div class="col-md-6">
-            <a href="assets/img/Rings.jpeg" data-lightbox="image-1" data-title="Rings"><img src="assets/img/rings.jpeg" class="img-gallery" /></a>
-        </div>
-        <div class="col-md-6">
-            <a href="assets/img/bride3.jpeg" data-lightbox="image-1" data-title="Bride"><img src="assets/img/bride3.jpeg" class="img-gallery" /></a>
-        </div>
-    </div>
-    <footer>
-        <div class="row">
-            <div class="col-md-4 col-sm-6 footer-navigation">
-                <h3><a href="#">Company<span>logo </span></a></h3>
-                <p class="links"><a href="#">Home</a><strong> · </strong>
-                    <a href="#">Gallery</a><strong> · </strong><a href="#">Blog </a><strong> · </strong><a href="#">About</a><strong> · </strong><a href="#">Faq</a><strong> · </strong><a href="#">Contact</a></p>
-                <p class="company-name">Company Name © 2015 </p>
-            </div>
-            <div class="col-md-4 col-sm-6 footer-contacts">
-                <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
-                    <p><span class="new-line-span">21 Revolution Street</span> Paris, France</p>
-                </div>
-                <div><i class="fa fa-phone footer-contacts-icon"></i>
-                    <p class="footer-center-info email text-left"> +1 555 123456</p>
-                </div>
-                <div><i class="fa fa-envelope footer-contacts-icon"></i>
-                    <p> <a href="#" target="_blank">support@company.com</a></p>
-                </div>
-            </div>
-            <div class="clearfix visible-sm-block"></div>
-            <div class="col-md-4 footer-about">
-                <h4>About the company</h4>
-                <p> Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
-                </p>
-                <div class="social-links social-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-github"></i></a></div>
-            </div>
-        </div>
-    </footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/lightbox-plus-jquery.min.js"></script>
-</body>
+    <script src="js/jquery.stickit.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  </head>
 
+  <body>
+
+<div class="wrapper">
+ <!--HEADER-->
+  <div class="header">
+    		<img class='fadeInDown animated' src="images/hairstyle_logo.png" alt="">
+	</div>
+	<div id="header">
+    		<h1>Hairstyle Studio</h1>
+  </div>
+
+  <!--NAVIGATION BAR-->
+	<div id="navbar">
+          <div class='toggle'>
+            <i class="fas fa-bars menu"></i>
+          </div>
+          <ul class="nav">
+        		<li><a href="#">Home</a></li>
+       			<li><a href="#content-1">Sercives</a></li>
+		        <li><a href="#story-1">About us</a></li>
+		        <li><a href="#gallery">Gallery</a></li>
+		        <li><a href="blog-page.html">Blog</a></li>
+		        <li><a href="contact.html">Contact</a></li>
+          </ul>
+	</div>
+
+
+ <!--Hero section-->
+	<div class='hero'>
+    <h1 class='bounceInUp animated'>The best hairstyle that fit you</h1>
+		<h3 class='btn bounceInLeft animated'>Read more</h3>
+	</div>
+
+ <!--Content - What the studio offers-->
+	<div class="content" data-aos="fade-right" data-aos-duration="1500">
+    <div id="content-1" >
+      <div class='about'>
+        <h1>Profesional care</h1>
+        <i class="far fa-thumbs-up"></i>
+      </div>
+        <p class='animateScroll'>Lorem Ipsum is simply dummy text of the printing
+           and typesetting industry. Lorem Ipsum has been the industry's standard
+           dummy text ever since the 1500s, when an unknown printer took a galley
+           of type and scrambled it to make a type specimen book.</p>
+           <h3 class="button">More</h3>
+    </div>
+
+    <div id="content-2" data-aos="fade-up" data-aos-duration="1500">
+      <div class='about'>
+        <h1>Services</h1>
+        <i class="fas fa-cut"></i>
+      </div>
+      <p class='animateScroll'>Lorem Ipsum is simply dummy text of the printing
+         and typesetting industry. Lorem Ipsum has been the industry's standard
+         dummy text ever since the 1500s, when an unknown printer took a galley
+         of type and scrambled it to make a type specimen book.</p>
+         <h3 class="button">More</h3>
+    </div>
+
+    <div id="content-3" data-aos="fade-right" data-aos-duration="1500">
+      <div class='about'>
+        <h1>Always on time</h1>
+        <i class="far fa-clock"></i>
+      </div>
+      <p class='animateScroll'>Lorem Ipsum is simply dummy text of the printing
+         and typesetting industry. Lorem Ipsum has been the industry's standard
+         dummy text ever since the 1500s, when an unknown printer took a galley
+         of type and scrambled it to make a type specimen book.</p>
+         <h3 class="button">More</h3>
+    </div>
+  </div>
+
+ <!--STORY section-->
+ <div class='about' data-aos="flip-down" data-aos-duration="1500">
+   <h1>Testimonials</h1>
+   <i class="fas fa-quote-right"></i>
+ </div>
+  <div class='story' data-aos="flip-left" data-aos-duration="1500">
+    <div id="story-1" class='testimonials'>
+      <div class='testimonials-text'>
+        <h1>Hair Style</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+        <img src="images/hairstyle-story-1.jpeg" alt="hairstyle">
+    </div>
+    <div id="story-2" class='testimonials'>
+      <div class='testimonials-text'>
+        <h1>Stand out from crowd</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+        <img src="images/hairstyle-story-2.jpeg" alt="hairstyle">
+    </div>
+    <div id="story-3" class='testimonials'>
+      <div class='testimonials-text'>
+        <h1>Any weather conditions</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+        <img src="images/hairstyle-story-3.jpeg" alt="hairstyle">
+    </div>
+  </div>
+
+ <!--Team section-->
+  <div class='about' data-aos="flip-down" data-aos-duration="1500">
+    <h1>Our devoted team</h1>
+    <i class="fas fa-users"></i>
+  </div>
+  <div class="team">
+    <div id="team" data-aos="zoom-in-right" data-aos-duration="1500">
+      <div class='about'>
+        <h1>John Doe</h1>
+        <i class="fas fa-address-card"></i>
+      </div>
+        <img data-aos="zoom-in" data-aos-duration="2000" src="images/pexels-photo-247885.jpeg" alt="">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+    <div id="team-1" data-aos="zoom-in-down" data-aos-duration="1500">
+      <div class='about'>
+        <h1>Jane Doe</h1>
+        <i class="fas fa-address-card"></i>
+      </div>
+        <img data-aos="zoom-in" data-aos-duration="2000" src="images/pexels-photo-301284.jpeg" alt="">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+    <div id="team-2" data-aos="zoom-in-left" data-aos-duration="1500">
+      <div class='about'>
+        <h1>Janie Doe</h1>
+        <i class="fas fa-address-card"></i>
+      </div>
+        <img data-aos="zoom-in" data-aos-duration="2000" src="images/pexels-photo-629922.jpeg" alt="">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+  </div>
+
+ <!--Gallery-->
+    <div id="content-4" data-aos="fade-down" data-aos-duration="1500">
+      <div class='about'>
+        <h1 id='gallery'>Gallery</h1>
+        <i class="fas fa-images"></i>
+      </div>
+    </div>
+	</div>
+
+  <div class="gallery">
+    <div class="item" data-aos="flip-left" data-aos-duration="2000">
+      <a href="images/colors-hairdresser-cutting-colorimetry-159780.jpeg" data-lightbox="image-1" data-title="Hair dresser">
+        <img src="images/colors-hairdresser-cutting-colorimetry-159780.jpeg" alt="Hair dresser"></a>
+    </div>
+
+    <div class="item-w" data-aos="flip-right" data-aos-duration="2000">
+      <a href="images/demonstration-hair-model-show-52499.jpeg" data-lightbox="image-1" data-title="Hair model">
+        <img src="images/demonstration-hair-model-show-52499.jpeg" alt="Hair model"></a>
+    </div>
+
+    <div class="item-w" data-aos="flip-up" data-aos-duration="2000">
+      <a href="images/pexels-photo-54566.jpeg" data-lightbox="image-1" data-title="Blond hair">
+        <img src="images/pexels-photo-54566.jpeg" alt="Blond hair"></a>
+    </div>
+
+    <div class="item-w" data-aos="flip-down" data-aos-duration="2000">
+      <a href="images/pexels-photo-206296.jpeg" data-lightbox="image-1" data-title="Brunete">
+        <img src="images/pexels-photo-206296.jpeg" alt="Brunete"></a>
+    </div>
+
+    <div class="item" data-aos="fade-down-right" data-aos-duration="2000">
+      <a href="images/pexels-photo-219550.jpeg" data-lightbox="image-1" data-title="Bun">
+        <img src="images/pexels-photo-219550.jpeg" alt="Bun"></a>
+    </div>
+
+    <div class="item" data-aos="fade-down-left" data-aos-duration="2000">
+      <a href="images/pexels-photo-219582.jpeg" data-lightbox="image-1" data-title="braid">
+        <img src="images/pexels-photo-219582.jpeg" alt="braid"></a>
+    </div>
+
+    <div class="item-w" data-aos="fade-down-right" data-aos-duration="1500">
+      <a href="images/pexels-photo-235490.jpeg" data-lightbox="image-1" data-title="curly hair">
+        <img src="images/pexels-photo-235490.jpeg" alt="curly hair"></a>
+    </div>
+
+    <div class="item" data-aos="fade-down-left" data-aos-duration="1500">
+      <a href="images/pexels-photo-247293.jpeg" data-lightbox="image-1" data-title="curly">
+        <img src="images/pexels-photo-247293.jpeg" alt="curly"></a>
+    </div>
+
+    <div class="item" data-aos="zoom-in" data-aos-duration="1500">
+      <a href="images/pexels-photo-247297.jpeg" data-lightbox="image-1" data-title="curly brunete">
+        <img src="images/pexels-photo-247297.jpeg" alt="curly brunete"></a>
+    </div>
+  </div>
+
+<!--FOOTER-->
+  <div id="footer">
+    <a href='#'><p>&copy;2017 Dragan</p></a>
+    <div class="social">
+      <a href="https://www.facebook.com/" target='blank'><i class="fab fa-facebook-square"></i></a>
+      <a href="https://twitter.com/" target='blank'><i class="fab fa-twitter-square"></i></a>
+      <a href="https://www.pinterest.com/" target='blank'><i class="fab fa-pinterest-square"></i></a>
+      <a href="https://www.instagram.com/" target='blank'><i class="fab fa-instagram"></i></a>
+      <a href="https://plus.google.com" target='blank'><i class="fab fa-google-plus-square"></i></a>
+    </div>
+
+  </div>
+
+
+
+<!--SCRIPTS-->
+  <script>
+    $('#header').stickit({scope: StickScope.Document, zIndex: 101});
+    $('#navbar').stickit({scope: StickScope.Document, top: 38});
+    $('#menu-phone').stickit({scope: StickScope.Document, top: 38});
+  </script>
+
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  </body>
 </html>
