@@ -217,7 +217,7 @@ body { background: radial-gradient(black 15%, transparent 16%) 0 0,
 
 .testimonials {
   width: 100%;
-  height: 250px;
+  height: 300px;
   transform: skewY(5deg);
   background: -webkit-linear-gradient(left, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.8), #ff0000, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0.5));
   background: -o-linear-gradient(left, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.8), #ff0000, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0.5));
@@ -235,7 +235,7 @@ body { background: radial-gradient(black 15%, transparent 16%) 0 0,
   font-weight: 700;
 }
 .testimonials-text h1 {
-  font-family: helvetica, arial, serif;
+  font-family: 'Emotional Rescue', arial, serif;
   color: rgba(0,0,0,0.6);
   text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
                0px -5px 35px rgba(255,255,255,0.3);
@@ -243,12 +243,15 @@ body { background: radial-gradient(black 15%, transparent 16%) 0 0,
 p {
   font-family: Bellerose, sans-serif;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 .testimonials img {
   flex: 1;
+  width: 30%;
   transform: skewY(-5deg);
   border-radius: 50%;
   padding: 20px;
+  margin-right: 20px;
   box-shadow: 0 10px 10px rgba(20,20,20,.4);
 }
 
@@ -292,9 +295,7 @@ p {
   width: 100%;
   border-bottom: 7px double rgba(255, 0, 0, 0.5);
 }
-.story img {
-  width: 100%;
-}
+
 
 /*CONTACT section*/
 .contact {
