@@ -8,17 +8,7 @@
     <link rel="stylesheet" href="style/lightbox.min.css">
     <link rel="stylesheet" href="style/aos.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js">
-	  <script rel='text/javascript' src='js/jquery-3.2.1.js'></script>
-    <script>
-      $(document).ready(function(){
-        $('.menu').click(function(){
-          $('ul').toggleClass('active');
-        })
-      });
-    </script>
-
-    <script src="js/jquery.stickit.min.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+	  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   </head>
   <body>
@@ -81,6 +71,18 @@
     </div>
 
     <!--SCRIPTS-->
+
+	<script src='js/jquery-3.2.1.js'></script>
+    <script>
+      $(document).ready(function(){
+        $('.menu').click(function(){
+          $('ul').toggleClass('active');
+        })
+      });
+    </script>
+
+    <script src="js/jquery.stickit.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
       <script>
         $('#header').stickit({scope: StickScope.Document, zIndex: 101});
         $('#navbar').stickit({scope: StickScope.Document, top: 38});
