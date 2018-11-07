@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>FAMOUS50</title>
+        
+        <!-- Bootstrap -->
+        <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Stardos+Stencil:400,700" rel="stylesheet"> 
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+            <![endif]-->
+    </head>
+
+    <body>    
+        
+        <!--NAVBAR-->
+        <div class="navigation">
+            <div id="sidebar">
+                <ul>
+                <a href="#"><li>Home</li></a>
+                <a href=""><li>Fame</li></a>
+                <a href=""><li>Fortune</li></a>
+                <a href=""><li>Facts</li></a>
+                <a href=""><li>Fun</li></a>   
+                </ul>         
+                <img src="images/famous50.png" alt="">
+            </div>
+            <div id="toggle-btn" onclick="toggleSidebar(this)">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="banner">
+                <img src="images/Group 29.png" alt="">
+            </div>
+            <div class="logo">
+                <img src="images/famous50.png" alt="">
+            </div>
+        </div>
+
+        <!--HEADER-->
+        <div class='header'>
+            <img src="images/milky-way.jpeg" alt="" class="background">
+            <div class="quotes">
+                <div class="quote1">
+                    <img src="images/path.png" alt="">
+                    <i class="fas fa-quote-right"></i>
+                    <p>Success is not final, failure is not fatal: it is the courage to continue that counts.</p>
+                    <img class='circle' src="images/Winston Churchill.jpg" alt="">
+                    <h4>Winston Churchill</h4>
+                    <h6>Former UK Prime Minister</h6>
+                </div>
+                <div class="quote1">
+                    <img src="images/path.png" alt="">
+                    <i class="fas fa-quote-right"></i>
+                    <p>Life is like riding a bicycle. To keep your balance you must keep moving.</p>
+                    <img class='circle' src="images/Einstein.jpg" alt="">
+                    <h4>Albert Einstein</h4>
+                    <h6>Theoretical physicist</h6>
+                </div>
+                <div class="quote1">
+                    <img src="images/path.png" alt="">
+                    <i class="fas fa-quote-right"></i>
+                    <p>It always seems impossible until it's done.</p>
+                    <img class='circle' src="images/nelson_mandela.jpeg" alt="">
+                    <h4>Nelson Mandela</h4>
+                    <h6>Former President of South Africa</h6>
+                </div>
+                <div class="quote1">
+                    <img src="images/path.png" alt="">
+                    <i class="fas fa-quote-right"></i>
+                    <p>Ask not what your country can do for you, ask what you can do for your country</p>
+                    <img class='circle' src="images/Kennedy.jpg" alt="">
+                    <h4>John F. Kennedy</h4>
+                    <h6>35th U.S. President</h6>
+                </div>
+                <div class="quote1">
+                    <img src="images/path.png" alt="">
+                    <i class="fas fa-quote-right"></i>
+                    <p>Our lives begin to end the day we become silent about things that matter</p>
+                    <img class='circle' src="images/Martin Luther King.jpg" alt="">
+                    <h4>Martin Luther King</h4>
+                    <h6>American minister</h6>
+                </div>
+                <div class="quote1">
+                    <img src="images/path.png" alt="">
+                    <i class="fas fa-quote-right"></i>
+                    <p>Kind words can be short and easy to speak, but their echoes are truly endless</p>
+                    <img class='circle' src="images/Mother-Theresa.jpg" alt="">
+                    <h4>Mother Teresa</h4>
+                    <h6>Saint</h6>
+                </div>
+            </div>
+            <div class="header-text">
+                <i class="fas fa-play" data-toggle="modal" data-target="#audioModalCenter"></i>
+                <div class="title">
+                    <a href=""><img src="" alt=""></a>
+                    <h1>Famous 50 publishing series</h1>
+                    <p>This is your unique opportunity to be in a first edition book with a group of fifty other high achievers. Get the prestige and recognition you deserve and comes from being in a book with global distribution. YOU! will impress your family, your friends and colleagues! Click on the links below to find out more</p>
+               </div>
+               <div class="buttons">
+                    <div class="btn1">
+                        <i class="fas fa-angle-double-down"></i>
+                        <p class="btn">Fame</p>
+                    </div>
+                    <div class="btn1">
+                        <i class="fas fa-angle-double-down second"></i>
+                        <p class="btn">Fortune</p>
+                    </div>
+                    <div class="btn1">
+                        <i class="fas fa-angle-double-down third"></i>
+                        <p class="btn">Facts</p>
+                    </div>
+                    <div class="btn1">
+                        <i class="fas fa-angle-double-down fourth"></i>
+                        <p class="btn">Fun</p>
+                    </div>
+                </div>
+            </div>
+            <img class='scroll-img' src="images/Scroll-white.png" alt="">
+        </div>
+
+        <!--CARDS-->
+        <h1 class="card-title">Famous 50</h1>
+        <section class="cards">
+            <div class="card1">
+                <img src="images/insurance.jpg" alt="">
+                <a href="#"><h2>Professional</h2></a>
+            </div>
+            <div class="card1">
+                    <img src="images/family.jpg" alt="">
+                    <a href=""><h2>Family</h2></a>
+            </div>
+            <div class="card1">
+                    <img src="images/sport.jpg" alt="">
+                    <a href=""><h2>Sports</h2></a>
+            </div>
+            <div class="card1">
+                    <img src="images/organic-food-suppliers-2.jpg" alt="">
+                    <a href=""><h2>Lifestyle</h2></a>
+            </div>
+        </section>
+
+
+        <!--VIDEO-->
+        <div class="video-bg">
+            <div class="video-title">
+                <h1>Let us help you get started...<br>to finish</h1>
+                <p>strong</p>
+            </div>
+                <video src="images/Usain Bolt.mp4" autoplay loop muted></video>
+        </div>
+        
+        <!--FOOTER-->
+        <footer>
+            <p>&copy; Dragan</p>
+        </footer>
+
+        
+        
+  
+  <!-- Modal -->
+  <div class="modal fade" id="audioModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <audio src="images/Famous50_mixdown (1).wav" controls></audio>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+        
+          
+        
+  
+        
+        
+       
+        
+                    
+                 
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="bootstrap/bootstrap.bundle.min.js"></script>
+        
+        
+        
+        <script>
+
+            function toggleSidebar(ref) {
+                ref.classList.toggle('active');
+                document.getElementById('sidebar').classList.toggle('active');
+            }
+
+        </script>  
+    </body>
+</html>
