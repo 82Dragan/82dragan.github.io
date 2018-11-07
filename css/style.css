@@ -482,6 +482,12 @@ video {
     color: #000;
 }
 
+footer p {
+    color: #fff;
+    text-align: center;
+}
+    
+
 @media (max-width: 768px) {
     .header {
         height: auto;
