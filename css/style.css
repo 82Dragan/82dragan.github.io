@@ -194,6 +194,7 @@
     height: 15em;
     margin: 1em;
     position: relative;
+    background: url('images/path.png');
 }
 .quote1 img {
     width: 100%;
